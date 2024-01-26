@@ -1,0 +1,205 @@
+{
+  "timeline": {
+    "items": [
+      {
+        "title": "started freelancing",
+        "slug": "1",
+        "date": "2023.5",
+        "description": "got the confidence and started doing freelance jobs, was able to overcome a fear and accepted a job on a language I had no prior experience (PHP)",
+        "image": {
+          "url": "https://source.unsplash.com/random",
+          "title": "Image 1",
+          "description": "A description for Image 1",
+          "width": 800,
+          "height": 600
+        },
+        "category": "Education",
+        "location": "Evolute Game Development Institute",
+        "achievement": "Completed Game Development Classes",
+        "sys": {
+          "firstPublishedAt": "2012-01-01T00:00:00.000Z",
+          "publishedAt": "2012-01-01T00:00:00.000Z"
+        }
+      },
+      {
+        "title": "started freelancing",
+        "slug": "1",
+        "date": "2023.5",
+        "description": "got the confidence and started doing freelance jobs, was able to overcome a fear and accepted a job on a language I had no prior experience (PHP)",
+        "image": {
+          "url": "https://source.unsplash.com/random",
+          "title": "Image 1",
+          "description": "A description for Image 1",
+          "width": 800,
+          "height": 600
+        },
+        "category": "Education",
+        "location": "Evolute Game Development Institute",
+        "achievement": "Completed Game Development Classes",
+        "sys": {
+          "firstPublishedAt": "2012-01-01T00:00:00.000Z",
+          "publishedAt": "2012-01-01T00:00:00.000Z"
+        }
+      },
+      {
+        "title": "bought and moved to my first apartment!",
+        "slug": "1",
+        "date": "2022.5",
+        "image": {
+          "url": "https://source.unsplash.com/random",
+          "title": "Image 1",
+          "description": "A description for Image 1",
+          "width": 800,
+          "height": 600
+        },
+        "category": "Education",
+        "location": "Evolute Game Development Institute",
+        "achievement": "Completed Game Development Classes",
+        "sys": {
+          "firstPublishedAt": "2012-01-01T00:00:00.000Z",
+          "publishedAt": "2012-01-01T00:00:00.000Z"
+        }
+      },
+      {
+        "title": "joined Accenture as fullstack software engineer",
+        "slug": "1",
+        "date": "2022.5",
+        "description": "did some internal tools and web apps for clients. Ranging from web deveopment dashboards to data engineering.",
+        "image": {
+          "url": "https://source.unsplash.com/random",
+          "title": "Image 1",
+          "description": "A description for Image 1",
+          "width": 800,
+          "height": 600
+        },
+        "category": "Education",
+        "location": "Evolute Game Development Institute",
+        "achievement": "Completed Game Development Classes",
+        "sys": {
+          "firstPublishedAt": "2012-01-01T00:00:00.000Z",
+          "publishedAt": "2012-01-01T00:00:00.000Z"
+        }
+      },
+      {
+        "title": "joined IBM (dream job) as a data engineer.",
+        "slug": "2",
+        "date": "2021-02-01",
+        "description": "got the opportunity to work with the best of the best in a new fresh team, learning to build from scratch.",
+        "image": {
+          "url": "https://source.unsplash.com/random",
+          "title": "Image 2",
+          "description": "A description for Image 2",
+          "width": 1200,
+          "height": 900
+        },
+        "category": "Work",
+        "location": "ABC Tech Solutions",
+        "achievement": "Started Career as Jr. Front-end Developer",
+        "sys": {
+          "firstPublishedAt": "2019-02-01T00:00:00.000Z",
+          "publishedAt": "2019-02-01T00:00:00.000Z"
+        }
+      },
+      {
+        "title": "Seoul \u2665;",
+        "slug": "2",
+        "date": "2020-02-01",
+        "description": "Spent the year in Seoul, South Korea to enhance my english, learn korean and study Computer Science at Chung-Ang University. Unfortunately the unspoken-virus hit the same date.",
+        "image": {
+          "url": "https://source.unsplash.com/random",
+          "title": "Image 2",
+          "description": "A description for Image 2",
+          "width": 1200,
+          "height": 900
+        },
+        "category": "Work",
+        "location": "ABC Tech Solutions",
+        "achievement": "Started Career as Jr. Front-end Developer",
+        "sys": {
+          "firstPublishedAt": "2019-02-01T00:00:00.000Z",
+          "publishedAt": "2019-02-01T00:00:00.000Z"
+        }
+      },
+      {
+        "title": "first job as jr. front-end developer",
+        "slug": "2",
+        "date": "2019-02-01",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": {
+          "url": "https://source.unsplash.com/random",
+          "title": "Image 2",
+          "description": "A description for Image 2",
+          "width": 1200,
+          "height": 900
+        },
+        "category": "Work",
+        "location": "ABC Tech Solutions",
+        "achievement": "Started Career as Jr. Front-end Developer",
+        "sys": {
+          "firstPublishedAt": "2019-02-01T00:00:00.000Z",
+          "publishedAt": "2019-02-01T00:00:00.000Z"
+        }
+      },
+      {
+        "title": "Cape Town \u2665;",
+        "slug": "2",
+        "date": "2016-02-01",
+        "description": "spent 3 monhts in Cape Town to enhance my english-language skills and of course enjoy best of nature.",
+        "image": {
+          "url": "https://source.unsplash.com/random",
+          "title": "Image 2",
+          "description": "A description for Image 2",
+          "width": 1200,
+          "height": 900
+        },
+        "category": "Work",
+        "location": "ABC Tech Solutions",
+        "achievement": "Started Career as Jr. Front-end Developer",
+        "sys": {
+          "firstPublishedAt": "2019-02-01T00:00:00.000Z",
+          "publishedAt": "2019-02-01T00:00:00.000Z"
+        }
+      },
+      {
+        "title": "joined Evolute game development classes",
+        "slug": "1",
+        "date": "2012",
+        "description": "learned unity, made some simple 2d platform games. Also learned UE3 and made some short movies ",
+        "image": {
+          "url": "https://source.unsplash.com/random",
+          "title": "Image 1",
+          "description": "A description for Image 1",
+          "width": 800,
+          "height": 600
+        },
+        "category": "Education",
+        "location": "Evolute Game Development Institute",
+        "achievement": "Completed Game Development Classes",
+        "sys": {
+          "firstPublishedAt": "2012-01-01T00:00:00.000Z",
+          "publishedAt": "2012-01-01T00:00:00.000Z"
+        }
+      },
+      {
+        "title": "wrote my first line of code!",
+        "slug": "2",
+        "date": "2011-02-01",
+        "description": "first time trying the wizard's magic to hack a old zombies flash game and show to my friends.",
+        "image": {
+          "url": "https://source.unsplash.com/random",
+          "title": "Image 2",
+          "description": "A description for Image 2",
+          "width": 1200,
+          "height": 900
+        },
+        "category": "Work",
+        "location": "ABC Tech Solutions",
+        "achievement": "Started Career as Jr. Front-end Developer",
+        "sys": {
+          "firstPublishedAt": "2019-02-01T00:00:00.000Z",
+          "publishedAt": "2019-02-01T00:00:00.000Z"
+        }
+      }
+    ]
+  }
+}
