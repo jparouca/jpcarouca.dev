@@ -5,8 +5,6 @@ import { promises } from "fs";
 import path, { resolve } from "path";
 import { SelfDescHeader } from "../components/SelfDescHeader";
 import { Title } from "@/components/Title";
-import { getTimelineItems } from "@/lib/utils";
-import { cwd } from "process";
 
 async function fetchData() {
   const timelineItemsPath = path.resolve(
