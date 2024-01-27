@@ -58,29 +58,10 @@ export const metadata = {
   },
   title: {
     template: `%s — ${"sharedTitle"}`,
-    default: "teste",
-  },
-  description: "testdesc",
-  openGraph: {
-    title: {
-      template: `%s — ${"teste"}`,
-      default: "teste",
-    },
-    description: "testdesc",
-    alt: "teste",
-    type: "website",
-    url: "/",
-    siteName: "teste",
-    locale: "en_IE",
-  },
-  alternates: {
-    canonical: "/",
+    default: "J.P. Arouca",
   },
   twitter: {
     card: "summary_large_image",
-  },
-  other: {
-    pinterest: "nopin",
   },
 };
 
