@@ -1,6 +1,6 @@
 import { ScrollArea } from "@/components/ScrollArea";
 import { Title } from "@/components/Title";
-import { SelfDescHeader } from "../components/SelfDescHeader";
+import { SelfDescHeader } from "@/components/SelfDescHeader";
 export default function Utils() {
   return (
     <ScrollArea className="flex flex-col" hasScrollTitle>

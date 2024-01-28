@@ -19,7 +19,7 @@ export const BarItems = () => {
           />
           <div className="flex flex-col">
             <span className="font-semibold tracking-tight">J.P. Arouca</span>
-            <span className="text-gray-600">Software Engineer</span>
+            <span className="text-gray-600">Takaxo's Cabin</span>
           </div>
         </Link>
         <div className="flex flex-col gap-1">

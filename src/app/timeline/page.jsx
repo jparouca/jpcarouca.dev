@@ -3,7 +3,7 @@ import { ScrollArea } from "@/components/ScrollArea";
 import { Card } from "@/components/Card";
 import { promises } from "fs";
 import path, { resolve } from "path";
-import { SelfDescHeader } from "../components/SelfDescHeader";
+import { SelfDescHeader } from "@/components/SelfDescHeader";
 import { Title } from "@/components/Title";
 
 async function fetchData() {

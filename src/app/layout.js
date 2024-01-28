@@ -4,7 +4,7 @@ import Script from "next/script";
 import { GeistSans } from "geist/font";
 import { JetBrains_Mono } from "next/font/google";
 import { EyeIcon } from "lucide-react";
-import { BarItems } from "./components/BarItems";
+import { BarItems } from "@/components/BarItems";
 import { Sidebar } from "./components/Sidebar";
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -55,6 +55,9 @@ export const metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  icons: {
+    icon: "/favicon.ico",
   },
   title: {
     template: `%s — ${"sharedTitle"}`,

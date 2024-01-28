@@ -1,7 +1,7 @@
 import { Drawer } from "vaul";
 import { CommandIcon } from "lucide-react";
 
-import { BarItems } from "./BarItems";
+import { BarItems } from "@/components/BarItems";
 import { Button } from "@/components/ui/button.jsx";
 
 export function MobileDrawer() {

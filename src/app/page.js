@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Suspense } from "react";
 import Link from "next/link";
 import { ScrollArea } from "../components/ScrollArea";
-import { SelfDescHeader } from "../app/components/SelfDescHeader.jsx";
-import { Title } from "./components/Title";
+import { SelfDescHeader } from "@/components/SelfDescHeader";
+import { Title } from "@/components/Title";
 import { Spinner } from "./components/Spinner";
 
 export default function Home() {
