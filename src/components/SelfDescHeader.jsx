@@ -89,19 +89,6 @@ export const SelfDescHeader = memo(
                     </span>
                   </Balancer>
                 )}
-                {(isBlogRoute || isWorkflowRoute) && (
-                  <Button variant="outline" size="xs" asChild>
-                    <Link
-                      href={isBlogRoute ? "/blog.xml" : "/workflow.xml"}
-                      title="RSS feed"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <RadioIcon size={16} className="mr-2" />
-                      RSS feed
-                    </Link>
-                  </Button>
-                )}
               </div>
             </div>
             {scrollTitle && (

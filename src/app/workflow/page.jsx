@@ -10,32 +10,30 @@ import {
 import { ScrollArea } from "@/components/ScrollArea";
 import { SelfDescHeader as FloatingHeader } from "@/components/SelfDescHeader";
 import { Title as PageTitle } from "@/components/Title";
-import { WORKSPACE_ITEMS } from "@/lib/constants";
+import { WORKFLOW_ITEMS } from "@/lib/constants";
 
 export default async function Workflow() {
   return (
     <ScrollArea className="flex flex-col">
       <div className="absolute top-0 z-0 h-screen w-screen bg-white bg-[radial-gradient(100%_50%_at_50%_0%,rgba(120,119,198,0.3)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)]" />
-      <FloatingHeader title="Workflow" />
+      <FloatingHeader title="Conf files" />
       <div className="content-wrapper">
         <div className="content">
-          <PageTitle title="Workspace" />
+          <PageTitle title="Conf files / Setup" />
           <div className="-mx-6 flex snap-x snap-mandatory gap-6 overflow-x-scroll pb-6 md:mx-0 md:grid md:snap-none md:grid-cols-2 md:pb-0">
             <EmptyPlaceholder />
             <img
-              src="/assets/workspace-1.webp"
-              alt="Workspace | 1"
+              src="/desktop1.png"
               className="w-2/3 snap-center object-cover md:w-full md:snap-align-none"
-              width={756}
-              height={1008}
+              width={960}
+              height={540}
               loading="eager"
             />
             <img
-              src="/assets/workspace-2.webp"
-              alt="Workspace | 2"
+              src="/assets/workflow2"
               className="w-2/3 snap-center object-cover md:w-full md:snap-align-none"
-              width={756}
-              height={1008}
+              width={960}
+              height={540}
               loading="eager"
             />
             <EmptyPlaceholder />
@@ -51,7 +49,7 @@ export default async function Workflow() {
                 </TableRow>
               </TableHeader>
               <TableBody>
-                {WORKSPACE_ITEMS.map((item, itemIndex) => (
+                {WORKFLOW_ITEMS.map((item, itemIndex) => (
                   <TableRow key={`workspace-item-${itemIndex}`}>
                     <TableCell className="px-4 py-3 font-medium">
                       {item.title}
@@ -64,23 +62,12 @@ export default async function Workflow() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Buy
+                        External
                       </a>
                     </TableCell>
                   </TableRow>
                 ))}
               </TableBody>
-              <TableCaption className="py-3">
-                For other cool stuff, don&lsquo;t forget to check{" "}
-                <a
-                  href="https://some.wtf"
-                  className="link break-words after:content-['_↗']"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  some.wtf
-                </a>
-              </TableCaption>
             </Table>
           </div>
         </div>

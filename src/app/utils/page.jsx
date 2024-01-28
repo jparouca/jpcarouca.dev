@@ -6,15 +6,15 @@ export default function Utils() {
     <ScrollArea className="flex flex-col" hasScrollTitle>
       <div className="absolute inset-0 z-0 h-screen w-screen bg-white bg-[radial-gradient(100%_50%_at_50%_0%,rgba(0,163,255,0.13)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)]" />
 
-      <SelfDescHeader scrollTitle="Timeline" />
+      <SelfDescHeader scrollTitle="Utils" />
 
       <div className="content-wrapper">
         <Title title="Utils" />
         <div className="content">
-          <div className="mb-4 leading-slacker">
+          <div className="leading-slacker mb-4">
             Some utility tools I do once in a while when something bothers me.
           </div>
-          <ul className="mb-4 last:mb-0 flex-col gap-0.5 pl-6 list-disc space-y-2">
+          <ul className="mb-4 list-disc flex-col gap-0.5 space-y-2 pl-6 last:mb-0">
             <li>
               <div>
                 <a
