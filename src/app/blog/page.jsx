@@ -1,14 +1,14 @@
 import { ScrollArea } from "@/components/ScrollArea";
-import { Title as PageTitle } from "@/components/Title";
-import { SelfDescHeader as FloatingHeader } from "@/components/SelfDescHeader";
+import { SelfDescHeader } from "@/components/SelfDescHeader";
+import { Spinner } from "../components/Spinner";
 
 export default async function WritingSlug({ params }) {
   return (
     <>
-      <ScrollArea
-        className="flex flex-col bg-white"
-        hasScrollTitle
-      ></ScrollArea>
+      <ScrollArea className="flex flex-col bg-white" hasScrollTitle>
+        <SelfDescHeader title="Blog" />
+        <Suspense fallback={<Spinner />}></Suspense>
+      </ScrollArea>
     </>
   );
 }
